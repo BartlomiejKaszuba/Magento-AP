@@ -6,7 +6,6 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
-from selenium.webdriver.support.ui import Select
 
 # Preconditions:
 # 1. The website http://live.techpanda.org/index.php/backendlogin/ is open.
