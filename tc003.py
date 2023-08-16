@@ -27,6 +27,8 @@ driver.find_element(By.XPATH, '//*[@id="message-popup-window"]/div[1]/a').click(
 
 # Test step 1 - open any customer's details.
 
+# Expected result - the record is open.
+
 driver.find_element(By.XPATH, '//*[@id="customerGrid_table"]/tbody/tr[1]').click()
 sleep(3)
 
