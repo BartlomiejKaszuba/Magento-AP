@@ -82,4 +82,4 @@ sleep(2)
 driver.execute_script("window.scrollTo(0,300)")
 driver.get_screenshot_as_file('TC005.png')
 
-driver.close()
+driver.quit()
